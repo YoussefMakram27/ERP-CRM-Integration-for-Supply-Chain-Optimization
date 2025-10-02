@@ -24,7 +24,6 @@ else
 
 use ERP_CRM;
 
-create schema Staging;
 create schema Bronze;
 create schema Silver;
 create schema Gold;
