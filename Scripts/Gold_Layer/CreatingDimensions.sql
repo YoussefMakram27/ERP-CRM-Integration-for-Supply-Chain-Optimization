@@ -16,7 +16,7 @@ select
 	case
 		when datepart(weekday, date_value) in (1,7) then 1 else 0
 	end as is_weekend
-into [Gold].[dim_date]
+into Gold.dim_date
 from dates
 option (MAXRECURSION 0);  
 GO
