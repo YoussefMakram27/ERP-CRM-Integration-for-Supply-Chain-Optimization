@@ -170,5 +170,9 @@ After processing, all data is unified in a clean **data warehouse (Gold Layer)**
 **Youssef M. Makram**  
 _Data Engineer passionate about building scalable data systems and turning raw data into actionable insights._
 
-📫 [LinkedIn](https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/) • [GitHub](https://github.com/YoussefMakram27)
+📫 [LinkedIn](https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/)  
+💻 [GitHub](https://github.com/YoussefMakram27)  
+📧 [Email](mailto:youssefmakram2108@gmail.com)  
+📱 [WhatsApp / Phone](https://wa.me/201281446248)
+
 
