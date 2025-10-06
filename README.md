@@ -173,6 +173,7 @@ _Data Engineer passionate about building scalable data systems and turning raw d
 📫 [LinkedIn](https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/)  
 💻 [GitHub](https://github.com/YoussefMakram27)  
 📱 [WhatsApp / Phone](https://wa.me/201281446248)
-📧 [Email](youssefmakram2108@gmail.com)  
+
+📧 Email: youssefmakram2108@gmail.com
 
 
