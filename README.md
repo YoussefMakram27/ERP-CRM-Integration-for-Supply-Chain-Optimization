@@ -57,3 +57,26 @@ All source data were provided as **CSV files** (simulating ERP & CRM exports).
 
 The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
 
+    +------------------------+
+    |     CRM / ERP CSVs     |
+    +------------------------+
+               ↓
+      [ BRONZE LAYER ]
+      Raw ingestion zone
+      - Truncate & Insert from CSVs
+      - Minimal transformations
+               ↓
+      [ SILVER LAYER ]
+      Cleansed & standardized data
+      - Type casting, deduplication
+      - Standard date formats
+      - Trim spaces, remove invalid values
+      - Added metadata: source_file, load_datetime
+      - Merge (UPSERT) operations
+               ↓
+      [ GOLD LAYER ]
+      Business-ready warehouse (Star Schema)
+      - 5 Dimensions
+      - 4 Fact Tables
+               ↓
+       Analytics & Insights
