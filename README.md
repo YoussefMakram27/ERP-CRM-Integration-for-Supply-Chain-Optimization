@@ -1,9 +1,8 @@
 # 🚀 ERP–CRM Integration for Supply Chain Optimization
 
-### 🧠 End-to-End Data Engineering Project | PySpark | SQL | Data Warehouse | ETL
+### 🧠 End-to-End Data Engineering Project | SQL | Data Warehouse | ETL
 
 ![Tech](https://img.shields.io/badge/Tech-Data%20Engineering-blue?style=flat-square)
-![PySpark](https://img.shields.io/badge/Framework-PySpark-orange?style=flat-square)
 ![SQL](https://img.shields.io/badge/Language-SQL-yellow?style=flat-square)
 ![ETL](https://img.shields.io/badge/Process-ETL-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
