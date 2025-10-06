@@ -81,6 +81,7 @@ The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
                ↓
        Analytics & Insights
 
+<img width="907" height="778" alt="High-Level Architecture Flow" src="https://github.com/user-attachments/assets/45c1f35a-9022-4acb-8257-b96eb29c6978" />
 
 ---
 
