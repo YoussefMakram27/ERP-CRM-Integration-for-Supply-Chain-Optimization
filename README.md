@@ -105,6 +105,7 @@ The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
 | **dim_product** | Product attributes (category, price, supplier link) |
 | **dim_supplier** | Supplier performance data |
 | **dim_warehouse** | Warehouse information |
+<img width="1123" height="647" alt="Data_Flow" src="https://github.com/user-attachments/assets/b8fe3d42-4647-4523-b33f-570fb7a525e3" />
 
 ---
 
