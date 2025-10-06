@@ -111,7 +111,6 @@ The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
 
 | Category | Tools / Languages |
 |-----------|-------------------|
-| **Processing Framework** | PySpark |
 | **Query Language** | SQL |
 | **Storage Format** | CSV → Tables (Bronze/Silver/Gold) |
 | **Version Control** | GitHub |
@@ -140,5 +139,36 @@ The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
 
 ---
 
-## 📁 Repository Structure
+## 📈 Results
+
+After processing, all data is unified in a clean **data warehouse (Gold Layer)** ready for:
+
+- BI dashboards  
+- Supply chain KPIs  
+- Predictive analytics (future extensions)
+
+**Example KPIs derived:**
+
+- 🧾 Total Sales Revenue  
+- 📉 Low Stock Alerts  
+- 📈 Supplier Reliability Trends  
+- 🔄 Return Rates per Product  
+
+---
+
+## 🔮 Future Enhancements
+
+- 🚀 **Airflow** – Automate ETL pipelines  
+- 🧱 **dbt** – Version-controlled SQL transformations  
+- 📡 **Kafka** – Real-time streaming data ingestion  
+- 📊 **Power BI / Looker** – Visualization layer  
+
+---
+
+## 👨‍💻 Author
+
+**Youssef M.Makram M.Osman**  
+_Data Engineer passionate about building scalable data systems and turning raw data into actionable insights._
+
+📫 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/youssef-m-makram-m-osman-659a56233/)) • [GitHub]([https://github.com/](https://github.com/YoussefMakram27))
 
