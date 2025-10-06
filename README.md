@@ -80,3 +80,65 @@ The pipeline follows a **Medallion Architecture** (Bronze → Silver → Gold):
       - 4 Fact Tables
                ↓
        Analytics & Insights
+
+
+---
+
+## 🥇 Gold Layer: Star Schema Design
+
+### 🧮 Fact Tables
+
+| Fact Table | Description | Grain |
+|-------------|-------------|-------|
+| **fact_sales** | Customer sales transactions | 1 row per order |
+| **fact_inventory** | Daily inventory snapshots | 1 row per SKU per warehouse per day |
+| **fact_returns** | Returned items | 1 row per return |
+| **fact_purchases** | Purchase orders to suppliers | 1 row per order |
+
+### 🧩 Dimension Tables
+
+| Dimension | Description |
+|------------|-------------|
+| **dim_date** | All calendar dates from 2020–2025 |
+| **dim_customer** | Customer attributes (industry, location, manager) |
+| **dim_product** | Product attributes (category, price, supplier link) |
+| **dim_supplier** | Supplier performance data |
+| **dim_warehouse** | Warehouse information |
+
+---
+
+## ⚙️ Technologies & Tools
+
+| Category | Tools / Languages |
+|-----------|-------------------|
+| **Processing Framework** | PySpark |
+| **Query Language** | SQL |
+| **Storage Format** | CSV → Tables (Bronze/Silver/Gold) |
+| **Version Control** | GitHub |
+| **Future Integrations (Planned)** | Airflow (orchestration), dbt (transformation mgmt), Kafka (streaming ingestion) |
+
+---
+
+## 🧠 Key Features
+
+- ✅ **ETL Pipeline Design (Bronze → Silver → Gold)**
+- ✅ **Data Cleansing & Validation**
+- ✅ **Schema Enforcement & Type Standardization**
+- ✅ **Merge Logic for Incremental Loads**
+- ✅ **Dimensional Modeling (Star Schema)**
+- ✅ **Analytical Layer for Business Insights**
+- ✅ **Scalable Architecture for Future Automation**
+
+---
+
+## 📊 Example Use Cases Enabled
+
+- 🧾 **Sales Performance** → Total revenue by region, product, or time  
+- 📦 **Inventory Management** → Detect low-stock and replenishment needs  
+- 🔁 **Return Analysis** → Identify high-return products  
+- 🚚 **Supplier Evaluation** → Compare suppliers by reliability and lead time  
+
+---
+
+## 📁 Repository Structure
+
